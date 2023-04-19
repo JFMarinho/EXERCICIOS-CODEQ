@@ -1,0 +1,11 @@
+import math
+p1=input("Digite a posição de P1: ")
+coords1=p1.split()
+px1=float(coords1[0])
+py1=float(coords1[1])
+p2=input("Digite a posição de P2: ")
+coords2=p2.split()
+px2=float(coords2[0])
+py2=float(coords2[1])
+distancia= math.sqrt(pow(px1-px2,2)+pow(py1-py2,2))
+print(round(distancia,4))
